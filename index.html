@@ -10,17 +10,20 @@
     <form>
         <div align=center>
             <h1>Tham khảo ý kiến về tựa game Genshin Impact</h1>
-            <img src="/Picture/GI.jpg" alt="" height="300px">
+            <img src="https://webstatic-sea.mihoyo.com/hk4e/upload/fb/common.jpg" alt="" height="300px">
             <div class="form-input-info">
                 <label for="Username">Tên người dùng:</label>
+                <br>
                 <input type="text" name="Username" id="" maxlength="35" placeholder="Nhập tên của bạn">
             </div>
             <div class="form-input-info">
                 <label for="Email">Email:</label>
+                <br>
                 <input type="email" name="Email" id="" maxlength="35" placeholder="Nhập địa chỉ email của bạn">
             </div>
             <div class="form-input-info">
                 <label for="Description">Cảm giác của bạn khi tham gia vào tựa game này:</label>
+                <br>
                 <textarea name="Description" id="" cols="30" rows="10"></textarea>
             </div>
             <div class="form-input-info">
@@ -35,10 +38,12 @@
             </div>
             <div class="form-input-info">
                 <label for="choice">Bạn biết đến tựa game này từ đâu ?</label>
-                <input type="checkbox" name="choice" id="">Facebook
-                <input type="checkbox" name="choice" id="">Youtube
-                <input type="checkbox" name="choice" id="">Twitter
-                <input type="checkbox" name="choice" id="">Bạn bè
+                <div class="form-input-info">
+                    <input type="checkbox" name="choice" id="">Facebook
+                    <input type="checkbox" name="choice" id="">Youtube
+                    <input type="checkbox" name="choice" id="">Twitter
+                    <input type="checkbox" name="choice" id="">Bạn bè
+                </div>
             </div>
             <div class="form-input-info">
                 <label for="Time">Bạn thường giành bao nhiêu thời gian cho tựa game này?</label>
@@ -73,5 +78,8 @@
     }
     .form-input-info{
         margin-top: 20px;
+    }
+    * {
+        text-align: center;
     }
 </style>
